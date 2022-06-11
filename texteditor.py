@@ -25,12 +25,7 @@ while pointer_instruction != len(program):
 
     elif instruction == ">":
         pointer_mem += 1
-
-
-
-
-
-
+        
     elif instruction == ".":
         print(chr(mem[pointer_mem]), end="")
 
